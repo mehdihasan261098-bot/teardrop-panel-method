@@ -1,0 +1,18 @@
+# Normalise text files; never touch binaries
+* text=auto
+*.md   text eol=lf
+*.py   text eol=lf
+*.m    text eol=lf
+*.ino  text eol=lf
+*.tex  text eol=lf
+*.bib  text eol=lf
+*.bat  text eol=crlf
+*.EES  binary
+*.wbpz binary
+*.mph  binary
+*.pdf  binary
+*.pptx binary
+*.png  binary
+*.jpg  binary
+*.mp4  binary
+*.mov  binary
